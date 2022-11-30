@@ -5,14 +5,16 @@
  es:
  [1, 3, 5] ==> [5, 3, 1]
 */
+let arrayOfNumber = [1, 3, 5,21, 33]
+arrayOfNumber.reverse();
+console.log("Reversed", arrayOfNumber);
 
-/* WRITE YOUR ANSWER HERE */
 
 /* EXTRA 2
  Write a piece of code for getting the maximum numerical value from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+
 
 /* EXTRA 3
  Write a piece of code for getting the minimum numerical value from an array.
