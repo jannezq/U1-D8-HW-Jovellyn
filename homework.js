@@ -222,8 +222,11 @@ console.log("\n Car 6 removed from Cars for rent", carsForRent);
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
+console.log("\n>------------------Excercise 11---------------------------<\n");
 
-/* WRITE YOUR ANSWER HERE */
+console.log("carsForRent type:",typeof carsForRent,". Car brand type:", typeof listOfCar.brand,". Car license type:", typeof listOfCar.licensePlate, ". Car model type:",typeof listOfCar.model);
+
+
 
 /* EXERCISE 12
  Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
