@@ -1,8 +1,8 @@
-/* EXERCISE 9
- Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
+/* EXERCISE 10
+ Remove the first and the last car from the carsForRent array.
 */
 
-console.log("\n>------------------Excercise 9---------------------------<\n");
+console.log("\n>------------------Excercise 10---------------------------<\n");
 
 let listOfCar = { brand: "Toyota", model: "Avalon", licensePlate: "223200112"};
 
@@ -34,7 +34,16 @@ console.log("Change license plate for car 3: ", copyListOfCar3);
 console.log("Change license plate for car 4: ", copyListOfCar4);
 console.log("Change license plate for car 5: ", copyListOfCar5);
 
-let newListOfCars = listOfCar.concat(copyListOfCar1);
+let carsForRent = [
+    listOfCar, copyListOfCar1, copyListOfCar2, copyListOfCar3, copyListOfCar4, copyListOfCar5
+]
 
+console.log("\nCars for rent", carsForRent);
 
-console.log("New list of cars:", newListOfCars);
+carsForRent.splice(0,1);
+
+console.log("\n Car 1 removed from Cars for rent", carsForRent);
+
+carsForRent.splice(4,1);
+
+console.log("\n Car 6 removed from Cars for rent", carsForRent);

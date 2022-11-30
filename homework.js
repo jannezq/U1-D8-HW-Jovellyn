@@ -196,13 +196,28 @@ console.log("Change license plate for car 5: ", copyListOfCar5);
  Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log("\n>------------------Excercise 9---------------------------<\n");
+
+
+let carsForRent = [
+    listOfCar, copyListOfCar1, copyListOfCar2, copyListOfCar3, copyListOfCar4, copyListOfCar5
+]
+console.log("\nCars for rent", carsForRent);
 
 /* EXERCISE 10
  Remove the first and the last car from the carsForRent array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log("\n>------------------Excercise 10---------------------------<\n");
+
+//removing first car
+carsForRent.splice(0,1);
+console.log("\n Car 1 removed from Cars for rent", carsForRent);
+
+//removing last car
+carsForRent.splice(4,1);
+console.log("\n Car 6 removed from Cars for rent", carsForRent);
+
 
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
