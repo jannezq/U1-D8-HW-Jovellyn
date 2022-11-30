@@ -86,5 +86,9 @@ console.log("numArray added by 1 each: ", numArray);
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
+let lyrics = [ "hello", "from", "the", "other", "side", "I", "am", "Adele"]
 
-/* WRITE YOUR ANSWER HERE */
+for (let i = 0; i < lyrics.length; i++) {
+    lyrics[i] = lyrics[i].length;
+}
+console.log("Letters per words: ", lyrics);
