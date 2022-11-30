@@ -66,7 +66,7 @@ let person2 = {
     driverLicense: false,
 }
 
-if (person2.emailAddress != person.emailAddress) {
+if (person2.emailAddress !== person.emailAddress) {
     console.log("These are two different emails");
 } else{
     console.log("There is an error as both emails are the same");
