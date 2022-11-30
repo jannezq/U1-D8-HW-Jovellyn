@@ -233,7 +233,23 @@ console.log("carsForRent type:",typeof carsForRent,". Car brand type:", typeof l
  Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log("\n>------------------Excercise 12---------------------------<\n");
+
+let carsForSale = [];
+
+// 3 new cars in new array
+carsForSale.push({brand: "Tesla", model: "Model Y", licensePlate: "123467890"},{brand: "Tesla", model: "Model X", licensePlate: "123443590"},{brand: "Tesla", model: "Model S", licensePlate: "178922340"} )
+console.log("Cars for sale:",carsForSale);
+
+
+//number of cars present in carsForSale & carsForRent
+let totalCars = [
+    carsForRent.length + carsForSale.length
+]
+console.log("Total of rent and sale Cars:",totalCars);
+
+
+
 
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.

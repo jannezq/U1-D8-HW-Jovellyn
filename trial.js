@@ -61,3 +61,17 @@ console.log("carsForRent type:",typeof carsForRent,". Car brand type:", typeof l
 */
 
 console.log("\n>------------------Excercise 12---------------------------<\n");
+
+let carsForSale = [];
+
+// 3 new cars in new array
+carsForSale.push({brand: "Tesla", model: "Model Y", licensePlate: "123467890"},{brand: "Tesla", model: "Model X", licensePlate: "123443590"},{brand: "Tesla", model: "Model S", licensePlate: "178922340"} )
+console.log("Cars for sale:",carsForSale);
+
+
+//number of cars present in carsForSale & carsForRent
+let totalCars = [
+    carsForRent.length + carsForSale.length
+]
+console.log("Total of rent and sale Cars:",totalCars);
+
