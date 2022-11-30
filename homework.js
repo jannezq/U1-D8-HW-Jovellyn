@@ -215,7 +215,7 @@ carsForRent.splice(0,1);
 console.log("\n Car 1 removed from Cars for rent", carsForRent);
 
 //removing last car
-carsForRent.splice(4,1);
+carsForRent.pop(4);
 console.log("\n Car 6 removed from Cars for rent", carsForRent);
 
 
