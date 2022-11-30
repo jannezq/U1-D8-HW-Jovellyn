@@ -48,19 +48,39 @@ console.log("Even numbers: ", even);
  Write a piece of code for deleting only even entries from an array.
 */
 
+let length = maxNumArray.length;
+
+for (let i = 0; i < length; i++) {
+    for(let j = 0; j < maxNumArray.length; j++){
+        if (maxNumArray[j] % 2 !== 1 ) {
+            maxNumArray.splice(j,1)
+            
+        }
+    } 
+};
+console.log("Odd numbers only: ", maxNumArray);
 
 
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
 */
+let alphabet = "abcdefghijklmnopqrstuvwxyz"
+let noVowels = alphabet.replace(/[aeiou]/gi, "");
 
-/* WRITE YOUR ANSWER HERE */
+console.log("no vowels: ",noVowels);
+
 
 /* EXTRA 7
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let numArray = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+
+for (let i = 0; i < numArray.length; i++) {
+    numArray[i] = numArray[i] + 1;
+}
+
+console.log("numArray added by 1 each: ", numArray);
 
 /* EXTRA 8 
  Replace all the strings contained in an array with their length.
