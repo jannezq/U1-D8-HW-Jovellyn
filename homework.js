@@ -260,5 +260,5 @@ console.log("\n>------------------Excercise 13---------------------------<\n");
 
 for (index = 0; index < carsForSale.length; index++)
 {
-    console.log("Cars for sale data", carsForSale[index]);
+    console.log("Data of car in carsForSale:", carsForSale[index]);
 }
