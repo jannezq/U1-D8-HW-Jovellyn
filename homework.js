@@ -255,4 +255,10 @@ console.log("Total of rent and sale Cars:",totalCars);
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+console.log("\n>------------------Excercise 13---------------------------<\n");
+
+for (index = 0; index < carsForSale.length; index++)
+{
+    console.log("Cars for sale data", carsForSale[index]);
+}

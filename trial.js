@@ -75,3 +75,13 @@ let totalCars = [
 ]
 console.log("Total of rent and sale Cars:",totalCars);
 
+/* EXERCISE 13
+ Using a loop, print to the console all the data for each car in the carsForSale array.
+*/
+
+console.log("\n>------------------Excercise 13---------------------------<\n");
+
+for (index = 0; index < carsForSale.length; index++)
+{
+    console.log("Cars for sale data", carsForSale[index]);
+}
