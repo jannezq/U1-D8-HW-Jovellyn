@@ -238,7 +238,10 @@ console.log("\n>------------------Excercise 12---------------------------<\n");
 let carsForSale = [];
 
 // 3 new cars in new array
-carsForSale.push({brand: "Tesla", model: "Model Y", licensePlate: "123467890"},{brand: "Tesla", model: "Model X", licensePlate: "123443590"},{brand: "Tesla", model: "Model S", licensePlate: "178922340"} )
+carsForSale.push(
+    {brand: "Tesla", model: "Model Y", licensePlate: "123467890"},
+    {brand: "Tesla", model: "Model X", licensePlate: "123443590"},
+    {brand: "Tesla", model: "Model S", licensePlate: "178922340"} )
 console.log("Cars for sale:",carsForSale);
 
 
@@ -258,7 +261,7 @@ console.log("Total of rent and sale Cars:",totalCars);
 
 console.log("\n>------------------Excercise 13---------------------------<\n");
 
-for (index = 0; index < carsForSale.length; index++)
+for (let index = 0; index < carsForSale.length; index++)
 {
     console.log("Data of car in carsForSale:", carsForSale[index]);
 }
